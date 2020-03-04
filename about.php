@@ -10,6 +10,10 @@ $page = dvwaPageNewGrab();
 $page[ 'title' ]   = 'About' . $page[ 'title_separator' ].$page[ 'title' ];
 $page[ 'page_id' ] = 'about';
 
+echo $page[ 'title' ];
+
+$password = '1234';
+
 $page[ 'body' ] .= "
 <div class=\"body_padded\">
 	<h2>About</h2>
